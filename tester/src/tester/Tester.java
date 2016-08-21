@@ -41,12 +41,12 @@ public class Tester {
 		}
 	}
 
-/**	for(int in = 0; in < i; in++){
+	for(int in = 0; in < i; in++){
 		if(array[in]){
 			System.out.println(in);
 		}
 	}
-*/
+        
 	endTime = System.currentTimeMillis();
 	System.out.print("It took: ");
 	System.out.print((endTime - startTime) / 1000);
